@@ -1,6 +1,10 @@
 html{
     font-family: Poppins,sans-serif;
 }
+a{
+    text-decoration: unset;
+    color: var(--link-color);
+}
 #navbar{
     width: 100%;
     height: 75px;
