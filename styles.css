@@ -18,7 +18,7 @@ a{
     align-items: center;
     top: 0;
     left: 0;
-    background-color: #74B9FF;
+    background-color: #6D9DC5;
 }
 .nav-element{
     align-content: center;
@@ -31,7 +31,22 @@ a{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #FF5733; 
+    background-color: #53599a; 
     align-items: center;
     justify-content: center;
+}
+#welcome-section h1{
+    color:#f0f0f0;
+    font-size: 4em;
+    margin-bottom: 0;
+}
+#welcome-section p{
+    color:#f0f0f080;
+    margin-top: 0;
+    font-size: 2em;
+    font-style: italic;
+}
+#projects{
+    height: 150vh;
+    background-color: #068D9D;
 }
