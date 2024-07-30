@@ -49,4 +49,24 @@ a{
 #projects{
     height: 150vh;
     background-color: #068D9D;
+    text-align: center;
 }
+#project-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.project-image{
+    height: 500px;
+    width: 500px;
+    border: 1px solid blue;
+    background-size: cover;
+    background-position: center center;
+}
+.image-1{
+    background-image: url('odin-landing-page.png'); }
+
+.image-2{
+    background-image: url('FCC-landing-page.png');  }
+.image-3{
+    background-image: url('survey-form.png');   }
