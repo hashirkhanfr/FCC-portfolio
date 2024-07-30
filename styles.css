@@ -80,3 +80,9 @@ a{
     background-color: rgb(226, 110, 110);
     font-size: 1.5em;
 }
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 14px;
+    }
+    
+}
