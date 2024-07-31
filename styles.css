@@ -11,10 +11,13 @@ body{
 a{
     text-decoration: unset;
     color: var(--link-color);
+    
+}
+#navbar a{
     font-size: 1.5em;
     transition: 0.3s ease-in-out 1ms;
 }
-a:hover{
+#navbar a:hover{
     background-color: rgba(127, 255, 212, 0.315);
 }
 #navbar{
