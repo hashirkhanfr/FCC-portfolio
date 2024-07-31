@@ -59,7 +59,7 @@ a{
 #projects{
     border: 1px solid transparent;
     margin-top: 0%;
-    height: 110vh;
+    padding-bottom: 20px;
     background-color: #00d8a2;
     text-align: center;
 }
@@ -114,12 +114,19 @@ a{
 #CTA a{
     text-decoration: underline;
 }
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1024px){
+    .project-tile,.project-image{
+        height: 350px;
+        width: 350px;
+    }
+
+}
+@media screen and (max-width: 768px) {
     html{
         font-size: 14px;
     }
-    .project-tile{
-        transform: scale(0.5);
+    .project-tile,.project-image{
+        height: 250px;
+        width: 250px;
     }
-    
 }
