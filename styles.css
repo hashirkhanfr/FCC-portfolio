@@ -59,7 +59,7 @@ a{
 #projects{
     border: 1px solid transparent;
     margin-top: 0%;
-    height: 150vh;
+    height: 110vh;
     background-color: #00d8a2;
     text-align: center;
 }
@@ -70,7 +70,7 @@ a{
     margin-top: 100px;
     display: flex;
     justify-content:space-evenly;
-    
+    flex-wrap: wrap;
 }
 .project-image{
     height: 500px;
@@ -79,14 +79,16 @@ a{
     background-position: center center;
 }
 .image-1{
-    background-image: url('odin-landing-page.png'); }
+    background-image: url('https://github.com/hashirkhanfr/FCC-portfolio/blob/main/odin-landing-page.png?raw=true'); }
 
 .image-2{
-    background-image: url('FCC-landing-page.png');  }
+    background-image: url('https://github.com/hashirkhanfr/FCC-portfolio/blob/main/FCC-landing-page.png?raw=true');  }
 .image-3{
-    background-image: url('survey-form.png');   }
+    background-image: url('https://github.com/hashirkhanfr/FCC-portfolio/blob/main/survey-form.png?raw=true');   }
 
 .project-tile{
+    height: 500px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
@@ -112,9 +114,12 @@ a{
 #CTA a{
     text-decoration: underline;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1366px) {
     html{
         font-size: 14px;
+    }
+    .project-tile{
+        transform: scale(0.5);
     }
     
 }
