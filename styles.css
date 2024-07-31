@@ -1,3 +1,7 @@
+:root{
+    --link-color: #F0F0F0;
+}
+
 html{
     font-family: Poppins,sans-serif;
 }
@@ -7,6 +11,11 @@ body{
 a{
     text-decoration: unset;
     color: var(--link-color);
+    font-size: 1.5em;
+    transition: 0.3s ease-in-out 1ms;
+}
+a:hover{
+    background-color: rgba(127, 255, 212, 0.315);
 }
 #navbar{
     width: 100%;
