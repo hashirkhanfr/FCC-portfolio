@@ -13,11 +13,15 @@ a{
     color: var(--link-color);
     
 }
+#navbar .nav-element {
+    transition: background-color 0.3s ease-in-out;
+}
 #navbar a{
+    display: block; /* This makes the anchor fill the parent div */
     font-size: 1.5em;
     transition: 0.3s ease-in-out 1ms;
 }
-#navbar a:hover{
+#navbar .nav-element:hover {
     background-color: rgba(127, 255, 212, 0.315);
 }
 #navbar{
