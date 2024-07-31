@@ -47,9 +47,14 @@ a{
     font-style: italic;
 }
 #projects{
+    border: 1px solid transparent;
+    margin-top: 0%;
     height: 150vh;
-    background-color: #068D9D;
+    background-color: #00d8a2;
     text-align: center;
+}
+#projects h1{
+    font-size: 2em;
 }
 #project-container{
     margin-top: 100px;
