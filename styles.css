@@ -85,6 +85,23 @@ a{
     background-color: rgb(226, 110, 110);
     font-size: 1.5em;
 }
+#CTA{
+    border: 1px solid transparent;
+    background-color: #6D9DC5;
+    color: #f0f0f0;
+    text-align: center;
+}
+#CTA h1{
+    font-size: 3.5em;
+    margin-bottom: 0;
+}
+#CTA p{
+    margin-top: 0;
+    font-size: 1.5em;
+}
+#CTA a{
+    text-decoration: underline;
+}
 @media screen and (max-width: 768px) {
     html{
         font-size: 14px;
