@@ -142,3 +142,22 @@ a{
         width: 250px;
     }
 }
+@keyframes wiggle {
+    0%, 100% {
+      transform: translateX(0);
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateX(-5px);
+      transform: translateY(-5px);
+    }
+    75% {
+      transform: translateX(5px);
+      transform: translateY(5px);
+    }
+  }
+  
+  .wiggle {
+    display: inline-block;
+    animation: wiggle 0.9s ease-in infinite;
+  }
