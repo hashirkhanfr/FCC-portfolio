@@ -87,11 +87,19 @@ a{
     background-image: url('https://github.com/hashirkhanfr/FCC-portfolio/blob/main/survey-form.png?raw=true');   }
 
 .project-tile{
+    margin: 10px;
     height: 500px;
     width: 500px;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
+}
+.project-tile {
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-tile:hover {
+    transform: scale(1.04);
 }
 .project-text{
     background-color: rgb(226, 110, 110);
